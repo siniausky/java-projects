@@ -1,0 +1,17 @@
+package Exercises;
+import java.util.Scanner;
+public class SumTheDigits {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+			System.out.print("Please, enter a digit from 0 to 1000: ");
+			double digit = in.nextDouble();
+			double first = digit / 100;
+			System.out.println(first);
+		
+
+		in.close();
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package Exercises;
+import javax.swing.JOptionPane;
+public class GuiProgram {
+
+	public static void main(String[] args) {
+		JOptionPane.showMessageDialog(null, "Enter empoyee's name: " );
+		JOptionPane.showInputDialog(("Enter empoyee's name: "));
+		JOptionPane.showInputDialog("\n Enter number of hours worked in a week: ");
+		JOptionPane.showInputDialog("\n Enter hourly pay rate: ");
+		JOptionPane.showInputDialog("\nEnter federal tax witholding rate: ");
+		JOptionPane.showInputDialog("\nEnter state tax witholding rate:");
+		
+	
+//		System.out.print("\nEmployee name: " +name);
+//		System.out.print("\nHoursworked: " + hours);
+//		System.out.print("\n Pay rate: $" + rate);
+//		double grosspay = hours * rate;
+//		System.out.print("Gross pay: $" + grosspay);
+//		System.out.print("\nDeductions: "); 
+//		double fedWith = grosspay * fTax;
+//		System.out.print("\n\t Federal witholding" + (int)(fTax * 100) + ": " + fedWith);
+//		double stWith = grosspay * sTax;
+//		System.out.print("\n\t State witholding" + (int)(sTax * 100) + ": " + stWith);
+//		System.out.print("\n\tTotal deduction:  $" + (fedWith + stWith));
+//		System.out.print("\nNet pay:\t" + (grosspay - (fedWith + stWith)));
+
+		
+	}
+
+}

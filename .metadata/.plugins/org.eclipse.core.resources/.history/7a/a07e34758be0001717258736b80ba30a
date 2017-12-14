@@ -1,0 +1,12 @@
+package Exercises;
+
+public class RandomChar {
+//page 113
+	public static void main(String[] args) {
+		char a = 'A';
+		char b = 'a';
+		System.out.println(((int)a) -((int)b));
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package Exercises;
+import java.util.Scanner;
+public class AreaOfATriangleByPoints {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		double x1, y1, x2, y2, x3, y3;
+		System.out.print("Enter three points for a triangle: ");
+		x1
+	
+	}
+
+}

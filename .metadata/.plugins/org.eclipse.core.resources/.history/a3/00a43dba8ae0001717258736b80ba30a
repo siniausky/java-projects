@@ -1,0 +1,10 @@
+package Exercises;
+
+public class RandomChar {
+//page 113
+	public static void main(String[] args) {
+		char letter = (int)'A';
+		System.out.println(letter);
+	}
+
+}

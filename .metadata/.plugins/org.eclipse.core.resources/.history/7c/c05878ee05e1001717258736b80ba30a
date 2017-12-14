@@ -1,0 +1,10 @@
+package Exercises;
+import javax.swing.JOptionPane;
+class ComputeArea {
+
+	public static void main(String[] args) {
+	Double radius = Double.parseDouble(JOptionPane.showInputDialog("Please, enter the radius"));
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package Exercises;
+
+public class RandomChar {
+
+	public static void main(String[] args) {
+		char randomNum = (char)(System.currentTimeMillis() % 100);
+		System.out.println(randomNum);
+	}
+
+}

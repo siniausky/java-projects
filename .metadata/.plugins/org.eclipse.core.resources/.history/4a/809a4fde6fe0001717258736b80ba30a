@@ -1,0 +1,9 @@
+package Exercises;
+
+public class PrintATable {
+
+	public static void main(String[] args) {
+		System.out.println("a\tb\tpow(a, b)");
+	}
+
+}

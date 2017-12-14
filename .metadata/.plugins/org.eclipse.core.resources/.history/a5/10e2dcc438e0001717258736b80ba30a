@@ -1,0 +1,17 @@
+package Exercises;
+import java.util.Scanner;
+public class YearsInMinutes {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.print("Please, enter a number of seconds: " );
+		double secondsToDays = (in.nextDouble() / 60.0 / 60.0 / 24.0 / 365.0 );
+		
+		System.out.println(((int)secondsToDays *100)/100.0);
+		
+		
+		in.close();
+
+	}
+
+}

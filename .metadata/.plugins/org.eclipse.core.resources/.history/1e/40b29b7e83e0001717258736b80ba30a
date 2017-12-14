@@ -1,0 +1,19 @@
+package Exercises;
+import java.util.Scanner;
+public class FutureInvestmentValue {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.print("Enter investment amount:");
+		double amount = in.nextDouble();
+		System.out.println("Enter annual interest rate in percentage: ");
+		double percent = in.nextDouble();
+		System.out.println("Enter number of years: ");
+		double years = in.nextDouble();
+		double value = amount *( Math.pow((1 + percent), years*12.0));
+		System.out.println("Accumulated value is: " + value);
+
+		in.close();
+	}
+
+}

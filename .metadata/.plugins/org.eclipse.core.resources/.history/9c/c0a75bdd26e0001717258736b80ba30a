@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Ex1 {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		System.out.print("Please, enter Celsius degree: ");
+		double farenheit = (in.nextDouble() )* 9/5.0 +32;
+		System.out.println(farenheit);
+in.close();
+	}
+
+}

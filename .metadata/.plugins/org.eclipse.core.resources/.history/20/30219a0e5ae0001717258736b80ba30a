@@ -1,0 +1,26 @@
+package Exercises;
+import java.util.Scanner;
+public class AreaOfATriangleByPoints {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		double x1, y1, x2, y2, x3, y3;
+		System.out.print("Enter three points for a triangle: ");
+		x1 = in.nextDouble();
+		y1 = in.nextDouble();
+		x2 = in.nextDouble();
+		y2 = in.nextDouble();
+		x3 = in.nextDouble();
+		y3 = in.nextDouble();
+		double side1 = Math.abs( x2-x1); //length of one side
+		double side2 = Math.abs (x3-x2); //length of second side
+		double side3  = Math.abs(x1 - x3); //length of third side
+		System.out.println(side1);
+		System.out.println(side2);
+		System.out.println(side3);
+		double s = (side1 + side2 +side3) / 2.0;
+		double area = s * (s - side1) * (s - side2) * (s - side3);
+		System.out.println((area));
+	in.close();
+	}
+
+}
